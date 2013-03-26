@@ -8,8 +8,8 @@ import dynamicNetworking.calculator.operationsServer.Operation;
 public class Addition implements Operation
 {
   @Override
-  public float compute(float firstNumber, float secondNumber)
+  public float compute(float op1, float op2)
   {
-    return firstNumber + secondNumber;
+    return op1 + op2;
   } 
 } 
