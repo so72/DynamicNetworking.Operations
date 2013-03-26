@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package dynamicNetworking.calculator.operationsServer;
 
 /**
@@ -9,5 +5,5 @@ package dynamicNetworking.calculator.operationsServer;
  * @author steffen
  */
 public interface Operation {
-    
+    public float compute(float firstNumber, float secondNumber);    
 }

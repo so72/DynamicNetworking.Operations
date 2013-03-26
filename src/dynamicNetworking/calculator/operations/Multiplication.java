@@ -8,6 +8,7 @@ import dynamicNetworking.calculator.operationsServer.Operation;
  */
 public class Multiplication implements Operation
 {
+  @Override
   public float compute(float firstNumber, float secondNumber)
   {
     return firstNumber * secondNumber;
