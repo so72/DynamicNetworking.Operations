@@ -1,13 +1,15 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package dynamicNetworking.calculator.operations;
+import dynamicNetworking.calculator.operationsServer.Operation;
 
 /**
  *
- * @author steffen
+ * @author steffen, mark
  */
-public class Division {
-    
-}
+public class Division implements Operation
+{
+  public float compute(float firstNumber, float secondNumber)
+  {
+    return firstNumber / secondNumber;
+  } 
+} 
